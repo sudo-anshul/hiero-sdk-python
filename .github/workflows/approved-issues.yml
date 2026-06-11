@@ -23,7 +23,7 @@ jobs:
   approve:
     if: github.event.label.name == 'approved'
     name: Approve Issue
-    runs-on: hl-sdk-py-lin-md
+    runs-on: ubuntu-latest
 
     steps:
       - name: Harden Runner
